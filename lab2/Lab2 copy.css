@@ -1,0 +1,81 @@
+.MenuBar {
+    display:flex;
+    align-items: baseline; 
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 2px;
+   
+}
+
+.MenuBar h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 2px; /* Having to specify margin-right to create space among the words */ 
+}
+
+
+#HAF{
+    color: green;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 2px; /* Having to specify margin-right to create space among the words */ 
+   
+   
+
+}
+
+#LOGIN {
+    color: orange;
+    font-size: 14px;
+    margin: 0;
+
+}
+
+table{
+    padding: 0%;
+}
+
+.aTitle{
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;   
+    margin: 0;
+    
+}
+
+.excerpt{
+    color: gray;
+    font-size: 11pt;
+    margin: 0;
+
+}
+
+.Footer{
+    background: black;
+    text-align: center;
+}
+
+#CompName{
+    color: white; 
+    margin: 0;
+}
+
+#CompMess{
+    color: gray;
+    margin: 0;
+}
+
+/* Creating the changes for AddArticle */ 
+
+h4{
+    font-size: 20px;
+}
