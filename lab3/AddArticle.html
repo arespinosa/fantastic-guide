@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Lab2.css">
+    <title> "AddArticle" </title>
+</head>
+<body>
+    <!-- Reusing the MenuBar Class -->
+    <div class="MenuBar">
+        <h2> MyTechNews </h2> 
+        <p id="HAF"> HOME ARTICLES FORUMS</p> 
+        <p id="LOGIN"> LOGIN</p>
+
+    </div>
+
+    <!-- Clicking on Articles should take the user to the Articles.html page. -->
+    <h4> <a href="Articles.html"> Articles</a> &gt; New Article</h4>
+
+
+
+    <!-- Creating the category dropdown with six categories -->
+    <form> 
+        <label for="categories">Category</label>
+        <select name="categories" id="categories">     
+            <option value="bizit">Biz & IT </option>
+            <option value="tech">Tech</option>
+            <option value="science">Science</option>
+            <option value="policy">Policy</option>
+            <option value="cars">Cars</option>
+            <option value="g&c">Gaming & Culture </option>
+        </select>
+
+        <br>
+    <!-- Creating the Inputs, TextArea, and Button -->
+        <label for="title"> Title </label>
+        <input type="text" id="title" >
+
+        <br> 
+
+        <label for="excerpt"> Excerpt </label>
+        <input type="text" id="excerpt" >
+
+        <br> 
+
+        <label for="cont"> Content</label> 
+        <br>
+        <textarea id="cont" rows="5" cols="18" > </textarea>
+        <br> 
+
+        <button> Add </button>
+
+    </form>
+
+    <!-- Reusing the Footer Class -->
+    <div class="Footer">
+        <p id="CompName"> Proshorty News </p> 
+        <p id="CompMess"> Copyright &copy; Proshorty News. All rights reserved </p>
+
+    </div>
+
+</body>
+</html>
+
+
